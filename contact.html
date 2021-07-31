@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Contact Page</title>
+	<style type="text/css">
+		#background-part{
+		background-color: #c2aba3;
+		margin: 0;
+	}
+
+	#topbar{
+		background-color:#00264d; 
+		color: #ffffff;
+		text-align: center;
+		height: 40px;
+		padding-top: 16px;
+		font-size: 24px;	
+	}
+
+	.link{
+		text-decoration-color: white; 
+		color:white;
+	}
+
+	.menu-item{
+		display: inline;
+		padding: 30px;
+	}
+
+	#Signup{
+		width: 380px;
+		height: 300px;
+		background-color: white;
+		padding: 24px;
+		margin-left: auto;
+		margin-right: auto;
+		border:1px solid black;
+	}
+
+	
+	.input-label{
+		width: 100%;
+			font-size: 18px; 
+			padding-bottom: 12px;
+			margin-bottom: 36px;
+			border-top: 0;
+			border-left: 0;
+			border-right: 0;
+			border-bottom: 1px solid #ccc;
+	}
+
+	#submit{
+		background-color: #006699;
+			padding-top: 7px;
+			padding-bottom: 7px;
+			padding-left: 10px;
+			padding-right: 10px;
+			font-size: 18px;
+			font-color: white;
+			border: 1px solid black;
+
+	}
+
+	#footer{
+		background-color: black;
+		padding-bottom: 100px;
+
+	}
+	#footbar{
+		color: #000000;
+		text-align: center;
+		height: 40px;
+		padding-top: 16px;
+		font-size: 24px;
+			
+	}
+
+	</style>
+</head>
+<body id="background-part">
+	
+		<ul id="topbar">
+			<li class="menu-item"><a class="link" href="MyHTMLProject.html">TRIPS</a></li>
+			<li class="menu-item"><a class="link" href="about.html">ABOUT</a></a></li>
+			<li class="menu-item"><a class="link" href="contact.html">CONTACT</a></li>
+		</ul>
+
+		<h2 style="text-align: center;">Wanna come on my next trip? Contact ME.</h2>
+		<form id="Signup">
+			<div  style="padding-top: 10px;">
+				<input class="input-label" type="text" name="Full-name" placeholder="Full Name" required="">
+			</div>
+			<div>
+				<input class="input-label" type="email" name="email" placeholder="Email" required="">
+			</div>
+			<div>
+				<input class="input-label" type="number" name="contact-number" placeholder="Contact Number" minlength ="0" maxlength ="10">
+			</div>
+			<div style="text-align: center;">
+			<input id="submit" type="submit" name="Submit"></div>
+		</form>
+
+		<footer id="footer">
+			<ul id="footbar">
+				<li class="menu-item"><a href="MyHTMLProject.html">TRIPS</a></li>
+				<li class="menu-item"><a href="about.html">ABOUT</a></a></li>
+				<li class="menu-item"><a href="contact.html">CONTACT</a></li>
+			</ul>
+		</footer>
+</body>
+</html>
